@@ -1,0 +1,45 @@
+#title {
+  background-color: #f67280;
+  padding: 5% 15%;
+  height: 650px;
+  overflow: hidden;
+}
+
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.nav-link {
+  font-size: 1.4em;
+}
+
+.brand-text {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  font-size: 1.7em;
+}
+
+.title-text {
+  font-family: 'Crete Round', serif;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+.title {
+  padding: 10% 3%;
+}
+
+.btn {
+  margin: 10% 3%;
+}
+
+img {
+  transform: rotate(20deg);
+  width:60%;
+}
