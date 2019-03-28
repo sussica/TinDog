@@ -39,7 +39,33 @@
   margin: 10% 3%;
 }
 
-img {
+.title-image {
   transform: rotate(20deg);
   width:60%;
+}
+
+.fas{
+  color: #f67280;
+
+}
+
+.fas:hover{
+  color: #e84a5f;
+}
+
+#features{
+      margin: 10%;
+}
+
+.feature-brief{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    margin: 5%;
+}
+
+
+
+
+.center{
+  text-align: center;
 }
