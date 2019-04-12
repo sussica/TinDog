@@ -1,8 +1,29 @@
+.center {
+  text-align: center;
+}
+
 #title {
   background-color: #f67280;
   padding: 5% 15%;
-  height: 650px;
-  overflow: hidden;
+  height: auto;
+}
+.title-image{
+  width:80%;
+}
+
+
+@media (min-width: 1028px) {
+  #title {
+    background-color: #f67280;
+    padding: 5% 15%;
+    height: 650px;
+    overflow: hidden;
+  }
+
+  .title-image {
+    transform: rotate(20deg);
+    width: 60%;
+  }
 }
 
 .navbar {
@@ -39,33 +60,110 @@
   margin: 10% 3%;
 }
 
-.title-image {
-  transform: rotate(20deg);
-  width:60%;
-}
 
-.fas{
+
+.fas {
   color: #f67280;
-
 }
 
-.fas:hover{
+.fas:hover {
   color: #e84a5f;
 }
 
-#features{
-      margin: 10%;
+#features {
+  margin: 10%;
 }
 
-.feature-brief{
-    font-family: 'Comfortaa', cursive;
-    font-weight: bolder;
-    margin: 5%;
+.feature-brief {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bolder;
+  margin: 5%;
 }
 
+/* testimonial */
+.dogcontainer {
+  width: 150px;
+  display: inline-block;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0px;
+}
 
+.dog {
+  width: 300px;
+  position: relative;
+  right: 125px;
+  top: 0px;
+}
 
+.testimonial-image {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 6px;
+}
 
-.center{
+.testimonialAndPress {
+  background-color: #f67280;
   text-align: center;
+}
+
+.testimonial-text {
+  font-family: 'Crete Round', serif;
+  padding: 100px;
+  font-size: 40px;
+  color: white;
+}
+
+.dogbigcontainer {
+  display: inline-block;
+}
+
+.name {
+  color: white;
+  padding: 10px;
+  text
+}
+
+/* press */
+.press-picture {
+  width: 200px;
+  margin: 30px 30px 80px 30px;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+}
+
+.pricing-title {
+  font-family: 'Crete Round', serif;
+  font-size: 48px;
+  margin: 80px auto 10px;
+  display: inline-block;
+}
+
+.pricing-subtitle {
+  font-family: 'Comfortaa', cursive;
+  color: grey;
+}
+
+.text-align {
+  display: inline-block;
+  text-align: center;
+}
+
+/* call to action */
+#cta {
+  background-color: #f67280;
+  padding: 80px 20% 10px;
+}
+
+#footer {
+  margin: 10px auto;
+  padding-bottom: 70px;
+}
+
+.contact {
+  margin: 80px 10px 30px;
 }
